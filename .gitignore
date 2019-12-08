@@ -1,24 +1,82 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
-
-# dependencies
-/.idea
-/node_modules
-/.pnp
-.pnp.js
-
-# testing
-/coverage
-
-# production
-/build
-
-# misc
-.DS_Store
+############################
+# Ignore files/directories #
+############################
 .env.local
 .env.development.local
 .env.test.local
+.env.alpha.local
+.env.beta.local
 .env.production.local
 
+############################
+# Ignore files/directories #
+############################
+/.idea
+/.env
+/build
+/coverage
+/node_modules
+/vendor
+/www
+/src/assets/*
+composer.lock
+package-lock.json
 npm-debug.log*
-yarn-debug.log*
+yarn.lock*
 yarn-error.log*
+yarn-debug.log*
+/.pnp
+.pnp.js
+
+#############################
+# Logs, databases and misc. #
+#############################
+*.log
+*.sql
+*.sqlite
+*.sass-cache
+.bash_history
+.bash_logout
+.bashrc
+.cache
+.profile
+.mysql_history
+
+############
+# Packages #
+############
+*.7z
+*.dmg
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+*.bat
+
+###################
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+###################
+# Temporary files #
+###################
+*.swp
+*.swo
+*~
+
+######################
+# OS generated files #
+######################
+.DS_Store
+.DS_Store*
+ehthumbs.db
+Icon?
+Thumbs.db
+*.lock
