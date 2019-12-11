@@ -4,7 +4,7 @@ React JS base repository for any project.
 
 ## Project
 
-Built with React JS platform using the following technologies: HTML 5, JavaScript, Redux, Router, CSS3, SASS & Compass, NPM or Yarn, Gulp v.4 and more technologies.
+Built with React JS platform using the following technologies: HTML 5, JavaScript, Redux, Router, CSS3, SASS & Compass, NPM or Yarn, Gulp v.4 and more.
 
 ### Installing dependencies
 
@@ -61,7 +61,7 @@ For more information visit:
 
 - Open your terminal and browse to the root location of your project.
 - If required. Run: `$yarn install --dev` or `$npm install --save-dev` then: `$gulp [action]`
-- To work with and compile your Sass and JS files on the fly start: `$gulp`
+- To work with and compile your Sass files on the fly start: `$gulp`
 - Gulp actions commands list:
     - `$gulp clean` Delete all files.
     - `$gulp css` Compile SASS to CSS and validate SASS according Stylelint (https://stylelint.io/). Not concat.
@@ -91,21 +91,22 @@ The present project uses several technologies and tools for the automation and d
 4. React-Router: https://github.com/ReactTraining/react-router
 5. React-Snap: https://github.com/stereobooster/react-snap
 6. Material-UI: https://material-ui.com/
-7. Git: https://git-scm.com/
-8. NPM: https://www.npmjs.com/
-9. Yarn: https://yarnpkg.com/
-10. Sass: https://sass-lang.com/
-11. Gulp: https://gulpjs.com/
-12. Babel: https://babeljs.io/
-13. EditorConfig: https://editorconfig.org/
-14. Stylelint: https://stylelint.io/
-15. Human.txt: http://humanstxt.org/
+7. Normalize: https://github.com/necolas/normalize.css
+8. Git: https://git-scm.com/
+9. NPM: https://www.npmjs.com/
+10. Yarn: https://yarnpkg.com/
+11. Sass: https://sass-lang.com/
+12. Gulp: https://gulpjs.com/
+13. Babel: https://babeljs.io/
+14. EditorConfig: https://editorconfig.org/
+15. Stylelint: https://stylelint.io/
+16. Human.txt: http://humanstxt.org/
 
 **Note:** Thanks a lot of developers that to work on this projects.
 
 ### Others clarifications
 
-1. It is possible that on Mac OS the Gulp tasks do not run the correct form. In this case install NodeJS, NPM and Gulp-cli in your OS and execute the tasks outside the Docker containers.
+1. If required. It is possible that on Mac OS the Gulp tasks do not run the correct form. In this case install NodeJS, NPM and Gulp-cli in your OS and execute the tasks outside the Docker containers.
 
 ## Finally
 

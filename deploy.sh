@@ -5,9 +5,6 @@
 #
 # Notes:
 # - Yarn is assumed
-# - Yarn install is assumed
-# - react-scripts package is assumed
-# - dotenv-cli package is assumed
 # - .env.alpha.local is assumed
 # - .env.beta.local is assumed
 # - .env.development.local is assumed

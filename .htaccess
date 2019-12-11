@@ -1,8 +1,25 @@
-
 # Directory Index
 <IfModule dir_module>
     DirectoryIndex index.html index.php index.htm
 </IfModule>
+
+# .htaccess secure
+<files .htaccess>
+    order allow,deny
+    deny from all
+</files>
+
+# .git secure
+<files .git>
+    order allow,deny
+    deny from all
+</files>
+
+# .gitignore secure
+<files .gitignore>
+    order allow,deny
+    deny from all
+</files>
 
 # EXPIRES CACHING
 <IfModule mod_expires.c>
