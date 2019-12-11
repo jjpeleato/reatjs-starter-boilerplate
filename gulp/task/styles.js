@@ -50,7 +50,7 @@ function cssWithConcat()
 	return gulp
 		.src(merge)
 		.pipe(sass(config.options.sass))
-		.pipe(config.environment === 'production' ? concat('theme.css') : concat('theme.css'))
+		.pipe(config.environment === 'production' ? concat('theme.min.css') : concat('theme.css'))
 		.pipe(config.environment === 'production' ? uglifycss(config.options.uglifyCss) : util.noop())
 		.pipe(gulp.dest(config.paths.sassAssets.dest));
 }

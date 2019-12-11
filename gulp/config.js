@@ -17,7 +17,9 @@ const paths = {
     srcMain: [
       './assets/scss/theme.scss'
     ],
-    vendor: [],
+    vendor: [
+      './node_modules/normalize.css/normalize.css'
+    ],
     dest: theme + 'css/',
   },
   fontAssets: {
