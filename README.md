@@ -39,6 +39,7 @@ For more information visit:
 ├─ .env.beta.local.dist
 ├─ .env.development.local.dist
 ├─ .env.production.local.dist
+├─ .eslintrc.js
 ├─ .gitignore
 ├─ .htaccess
 ├─ .stylelintignore
@@ -68,18 +69,21 @@ For more information visit:
     - `$gulp cssWithConcat` Concat and compile SASS to CSS and validate SASS according Stylelint (https://stylelint.io/).
     - `$gulp fontAssets` Copy fonts assets to public directory.
     - `$gulp images` Copy and minify PNG, JPEG, GIF and SVG images with imagemin.
+    - `$gulp validate` Validate SCSS according Stylint (https://stylelint.io/).
     - `$gulp validateScss` Validate SCSS according Stylint (https://stylelint.io/).
     - `$gulp watch` Compile SASS to CSS and concat and minify JS files in real-time.
-- NPM actions commands list:
-    - `$npm run gulp:dev` Compile for development environment.
-    - `$npm run gulp:prod` Compile for production environment.
 - Yarn actions commands list:
     - `$yarn start` Runs the app in the development mode according .env.development.local file. Open http://localhost:3000 to view it in the browser. The page will reload if you make edits.
     - `$yarn test` Launches the test runner in the interactive watch mode.
     - `$yarn build` Builds the app according .env.production.local file to the build folder.
     - `$yarn build:alpha` Builds the app according .env.alpha.local file to the build folder.
-    - `$yarn build:beta` Builds the app according .env.beta.local file to the build folder.
-    - `$yarn eject` Compile for development environment.
+	- `$yarn build:beta` Builds the app according .env.beta.local file to the build folder.
+	- `$yarn eject` Compile for development environment.
+	- `$yarn gulp:dev` Compile for development environment.
+	- `$yarn gulp:prod` Compile for production environment.
+	- `$yarn gulp:validate` Validate SCSS according Stylint (https://stylelint.io/).
+	- `$yarn lint` Validate src/ directory according Airbnb's ESLint config (https://www.npmjs.com/package/eslint-config-airbnb).
+	- `$yarn lint:fix` Fix src/ directory according Airbnb's ESLint config (https://www.npmjs.com/package/eslint-config-airbnb).
 
 ### Technologies and tools
 
@@ -99,8 +103,11 @@ The present project uses several technologies and tools for the automation and d
 12. Gulp: https://gulpjs.com/
 13. Babel: https://babeljs.io/
 14. EditorConfig: https://editorconfig.org/
-15. Stylelint: https://stylelint.io/
-16. Human.txt: http://humanstxt.org/
+15. ESLint: https://eslint.org/
+16. Stylelint: https://stylelint.io/
+17. Airbnb's ESLint config: https://www.npmjs.com/package/eslint-config-airbnb
+18. Husky: https://www.npmjs.com/package/husky
+19. Human.txt: http://humanstxt.org/
 
 **Note:** Thanks a lot of developers that to work on this projects.
 

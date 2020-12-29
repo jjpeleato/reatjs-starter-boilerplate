@@ -80,9 +80,9 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "npm run lint && npm run gulp:validate",
-      "post-merge": "npm install --save-dev",
-      "post-rewrite": "npm install --save-dev"
+      "pre-commit": "yarn lint && yarn gulp:validate",
+      "post-merge": "yarn install --dev",
+      "post-rewrite": "yarn install --dev"
     }
   },
   "eslintConfig": {
