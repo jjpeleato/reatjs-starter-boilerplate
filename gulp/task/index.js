@@ -28,5 +28,6 @@ gulp.task('css', css);
 gulp.task('cssWithConcat', cssWithConcat);
 gulp.task('fontAssets', fontAssets);
 gulp.task('images', images);
+gulp.task('validate', gulp.series(validateScss));
 gulp.task('validateScss', validateScss);
 gulp.task('watch', watch);
