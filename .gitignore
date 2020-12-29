@@ -1,5 +1,5 @@
 ############################
-# Ignore files/directories #
+# Ignore environment files #
 ############################
 .env.local
 .env.development.local
@@ -19,6 +19,7 @@
 /vendor
 /www
 /src/assets/*
+.eslintcache
 composer.lock
 package-lock.json
 npm-debug.log*
