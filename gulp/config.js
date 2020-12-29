@@ -5,7 +5,6 @@ const environment = process.env.NODE_ENV || 'development';
 
 /* Activate or desactivate Stylint on CSS task. true: activate | false: desactivate */
 const lintcss = true;
-const jshint = true;
 
 /* Paths */
 const theme = './src/assets/';
@@ -64,6 +63,5 @@ const options = {
 /* Exports */
 exports.environment = environment;
 exports.lintcss = lintcss;
-exports.jshint = jshint;
 exports.paths = paths;
 exports.options = options;
